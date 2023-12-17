@@ -1,0 +1,31 @@
+.form {
+    text-align: center;
+    
+}
+
+.ava {
+    border-radius: 100px;
+}
+
+.text {
+    margin:10px
+}
+
+.submit {
+    margin: 20px;
+    width: 180px;
+    color: white;
+    background-color: blue;
+}
+
+@media only screen and (max-width: 600px) {
+    .text {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .submit {
+        display: none;
+    }
+}
